@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Contact Us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar1 {
+            display: flex;
+            align-items: right;
+            justify-content: center;
+            background:linear-gradient(rgb(42, 39, 39),rgb(140, 199, 219));
+            font-weight: bold;
+            font-size: 18px;
+            
+        }
+
+        .nav-list {
+            width: 100%;
+            height: 11.5vh;
+            display: flex;
+            align-items:center;
+            margin-left:20vw ;
+
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 25px 30px;
+           
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+        .navbar1 ul li a:hover {
+            color: rgb(234, 78, 78);
+            border-bottom: 4px solid #ff7509;
+            border-bottom-radius: 15px;
+            
+       
+        }
+        .logo{
+            border: solid 0px;
+            border-radius: 3px;
+        }
+        .logo img{
+            position: relative;
+            height:8vh;
+            margin-top:7px ;
+            margin-left: 3px;
+            align-items: center;
+            border-radius: 40px;
+
+        }
+
+.contact {
+            margin-top: 0px;
+            border: 1px solid black;
+            
+            margin-left: 1px;
+            padding-left: 20px;
+            background:linear-gradient(rgb(42, 42, 39),rgb(46, 68, 46));
+          width:98%;
+            font-family: 'Roboto Condensed', sans-serif;
+            height: 88vh;
+        }
+        
+
+        .contact h2 {
+            margin-top: 8px;
+            margin-bottom: 12px;
+            color: white;
+        }
+
+        .contact h3 {
+            margin-top: 6px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .contact p {
+            font-size: 20px;
+            color: white;
+        }
+
+
+        .contact p span {
+            font-weight: bold;
+
+        }
+
+        .contact label {
+            color: white;
+            font-weight: bold;
+        }
+
+        .contact input {
+            margin-bottom: 8px;
+            border-radius: 10px;
+            height: 35px;
+            width: 170px;
+        }
+
+        .contact textarea {
+            border-radius: 7px;
+            margin-bottom: 12px;
+
+        }
+
+        .contact button {
+            background-color: orange;
+            border-radius: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 30px;
+            font-weight: bold;
+        }
+
+        .contact button:hover {
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .icon img {
+            width: 6vw;
+            clip-path: circle();
+            margin-top: 6px;
+            
+        }
+        .inform{
+            position: relative;
+            margin-left: 70vw;
+            margin-top: -30vh;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar1">
+        <div class="logo">
+            <img src="lg123.jpg" alt="logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="try.html">HOME</a></li>
+            <li><a href="quotes.html">QUOTES</a> </li>
+                <li><a href="success.html">STORIES</a></li>
+                    <li><a href="books.html">BOOKS</a></li>
+                              
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>We want to hear from you! Having said that, we get thousands of emails every week and it’s important to keep
+            it short and to the point.
+            <br>We will open your email, it’s up to you whether or not we respond.
+        </p>
+
+        <h3>How To Contact Us</h3>
+        <p>If you need to contact us regarding anything support, please complete the form below:
+            <br>
+            We look forward to hearing from you.
+        </p>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="Email">Email:</label><br>
+            <input type="text" id="Email" name="Email"><br>
+            <label for="message">message:</label><br>
+            <textarea type="text"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="inform">
+        <h3>Contact Detail:</h3>
+        <p>
+            E-mail:<span>chandanyad86@gmail.com</span><br>
+            Phone Number : +919142585752
+
+        </p>
+
+        <div class="icon">
+            <img src="C:\Users\chandan kumar\Desktop\OneDrive\Documents\journey to success\icon2.jpg"></img>
+            <img src="C:\Users\chandan kumar\Desktop\OneDrive\Documents\journey to success\icon3.png"></img>
+            <img src="C:\Users\chandan kumar\Desktop\OneDrive\Documents\journey to success\icon4.png"></img>
+        </div>
+       </div>
+    </div>  
+</body>
+</html>
